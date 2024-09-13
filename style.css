@@ -109,3 +109,17 @@ li:hover {
 .dark-mode li:hover {
   background: #1e293b;
 }
+/* Highlight Effect */
+.highlight {
+    animation: highlightAnimation 1s ease-out;
+  }
+  
+  @keyframes highlightAnimation {
+    from {
+      background: #ffffe0; /* Light yellow for highlight */
+    }
+    to {
+      background: #fff; /* Original background */
+    }
+  }
+  
